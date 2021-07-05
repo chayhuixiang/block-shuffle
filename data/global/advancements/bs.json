@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "BlockShuffle",
+        "description": "Block Shuffle by Sqweedy",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: 'Sqweedy'}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
