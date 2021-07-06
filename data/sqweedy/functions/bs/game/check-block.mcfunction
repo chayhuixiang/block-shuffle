@@ -13,8 +13,9 @@ execute if score #game_started bs.dummy matches 1 run schedule function sqweedy:
 #run for players that have found block
 execute as @a[tag=!wonRound] if entity @s[tag=found] run function sqweedy:bs/game/found-block
 
-#repeatedly set gamemode for spectators to spectator mode
+#repeatedly set gamemode
 gamemode spectator @a[team=bs.spectators]
+gamemode survival @a[team=bs.players]
 
 #debugging
 #tell Sqweedy hi

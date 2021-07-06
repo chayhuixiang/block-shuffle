@@ -22,6 +22,8 @@ scoreboard objectives add bs.menu trigger
 scoreboard objectives add bs.rules trigger
 scoreboard objectives add bs.start trigger
 scoreboard objectives add bs.end trigger
+scoreboard objectives add bs.voteskip trigger
+scoreboard players set #100 bs.dummy 100
 
 #add scoreboards
 scoreboard objectives add bs.dummy dummy
