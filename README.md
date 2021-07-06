@@ -11,9 +11,14 @@ Installation instructions for both multiplayer and singleplayer can be found her
 - Everybody will be given a block to step on before time runs out.
 - You gain a point if you step on the block.
 - Most number of points at the end of the game wins!
-- Voteskip a round if the chosen block is too difficult.
 - No Player Limit
 - For 1.17++
+
+## Features
+- Customise difficulty from easy to insane (Block List for each difficulty found in misc branch -> 1.17 Block List.xlsx)
+- Voteskip feature enables players to voteskip a round if the chosen block is too difficult
+- Toggle keepInventory on/off
+- Customise Round Time between 5/8/10mins
 
 ## Credits
 Datapack creation by Sqweedy\
