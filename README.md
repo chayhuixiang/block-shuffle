@@ -16,7 +16,7 @@ Installation instructions for both multiplayer and singleplayer can be found her
 
 ## Credits
 Datapack creation by Sqweedy\
-Original Concept from Dream: https://www.youtube.com/watch?v=p34C7fNFgTA&t=270s&ab_channel=Dream
+Original Concept from Dream: https://www.youtube.com/watch?v=p34C7fNFgTA&t=270s&ab_channel=Dream \
 Datapack skeleton & loottables from RedSparr0w: https://github.com/RedSparr0w/block_shuffle
 
 ## Known Bugs
