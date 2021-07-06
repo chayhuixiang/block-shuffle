@@ -7,6 +7,11 @@ execute as @a[tag=!wonRound,team=bs.players] if score #block bs.dummy matches 40
 execute as @a[tag=!wonRound,team=bs.players] if score #block bs.dummy matches 501..600 run function sqweedy:bs/game/check-block/5
 execute as @a[tag=!wonRound,team=bs.players] if score #block bs.dummy matches 601..700 run function sqweedy:bs/game/check-block/6
 
+#decrement timer
+scoreboard players remove #timer bs.dummy 1
+execute store result bossbar bs:timer value run scoreboard players get #timer bs.dummy
+bossbar set bs:timer players @a
+
 #re-runs this function if game still ongoing
 execute if score #game_started bs.dummy matches 1 run schedule function sqweedy:bs/game/check-block 10t
 

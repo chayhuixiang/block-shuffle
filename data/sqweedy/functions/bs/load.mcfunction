@@ -30,6 +30,11 @@ scoreboard objectives add bs.dummy dummy
 scoreboard objectives add bs.blocks_found dummy
 scoreboard objectives modify bs.blocks_found displayname {"text":"No. of Blocks Found","color":"#f88914"}
 
+#add bossbar
+bossbar add bs:timer {"text":"Timer","color":"green"}
+bossbar set bs:timer color green
+bossbar set bs:timer visible false
+
 #load default settings
 function sqweedy:bs/settings/load
 

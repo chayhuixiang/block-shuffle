@@ -1,6 +1,12 @@
 #Set spacing in chat
 tellraw @a " "
 
+#set timer scoreboard
+execute if score #roundtime bs.settings matches 5 run scoreboard players set #timer bs.dummy 600
+execute if score #roundtime bs.settings matches 8 run scoreboard players set #timer bs.dummy 960
+execute if score #roundtime bs.settings matches 10 run scoreboard players set #timer bs.dummy 1200
+bossbar set bs:timer visible true
+
 #Set players blocks
 function sqweedy:bs/game/get-next-block
 
