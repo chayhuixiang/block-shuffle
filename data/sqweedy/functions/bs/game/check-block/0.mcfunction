@@ -140,8 +140,8 @@ execute if score #block bs.dummy matches 70 run execute at @s if block ~ ~ ~ min
 execute if score #block bs.dummy matches 70 run execute at @s if block ~ ~-1 ~ minecraft:oak_log run tag @s add found
 execute if score #block bs.dummy matches 71 run execute at @s if block ~ ~ ~ minecraft:spruce_log run tag @s add found
 execute if score #block bs.dummy matches 71 run execute at @s if block ~ ~-1 ~ minecraft:spruce_log run tag @s add found
-execute if score #block bs.dummy matches 72 run execute at @s if block ~ ~ ~ minecrat:birch_log run tag @s add found
-execute if score #block bs.dummy matches 72 run execute at @s if block ~ ~-1 ~ minecrat:birch_log run tag @s add found
+execute if score #block bs.dummy matches 72 run execute at @s if block ~ ~ ~ minecraft:birch_log run tag @s add found
+execute if score #block bs.dummy matches 72 run execute at @s if block ~ ~-1 ~ minecraft:birch_log run tag @s add found
 execute if score #block bs.dummy matches 73 run execute at @s if block ~ ~ ~ minecraft:acacia_log run tag @s add found
 execute if score #block bs.dummy matches 73 run execute at @s if block ~ ~-1 ~ minecraft:acacia_log run tag @s add found
 execute if score #block bs.dummy matches 74 run execute at @s if block ~ ~ ~ minecraft:dark_oak_log run tag @s add found
