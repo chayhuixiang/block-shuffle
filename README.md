@@ -1,10 +1,10 @@
 # Block Shuffle 1.17+
 
-Block shuffle is a minecraft minigame inspired by Dream.\n
+Block shuffle is a minecraft minigame inspired by Dream.\
 Instead of having to install minecraft plugins, here's a data-pack that allows you to run the minigame in vanilla minecraft!
 
 ## Installation
-This datapack can be installed just like any other minecraft vanilla datapack.\n
+This datapack can be installed just like any other minecraft vanilla datapack.\
 Installation instructions for both multiplayer and singleplayer can be found here: https://minecraft.fandom.com/wiki/Tutorials/Installing_a_data_pack
 
 ## Rules
@@ -15,7 +15,7 @@ Installation instructions for both multiplayer and singleplayer can be found her
 - For 1.17++
 
 ## Credits
-Datapack creation by Sqweedy\n
+Datapack creation by Sqweedy\
 Original Concept from Dream: https://www.youtube.com/watch?v=p34C7fNFgTA&t=270s&ab_channel=Dream
 Datapack skeleton & loottables from RedSparr0w: https://github.com/RedSparr0w/block_shuffle
 
