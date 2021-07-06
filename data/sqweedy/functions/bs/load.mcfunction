@@ -23,12 +23,12 @@ scoreboard objectives add bs.rules trigger
 scoreboard objectives add bs.start trigger
 scoreboard objectives add bs.end trigger
 scoreboard objectives add bs.voteskip trigger
-scoreboard players set #100 bs.dummy 100
 
 #add scoreboards
 scoreboard objectives add bs.dummy dummy
 scoreboard objectives add bs.blocks_found dummy
 scoreboard objectives modify bs.blocks_found displayname {"text":"No. of Blocks Found","color":"#f88914"}
+scoreboard players set #100 bs.dummy 100
 
 #add bossbar
 bossbar add bs:timer {"text":"Timer","color":"green"}
