@@ -4,6 +4,10 @@ execute if score #countdown bs.start matches 1..10 run title @a subtitle [{"scor
 execute if score #countdown bs.start matches 0 run title @a subtitle {"text":"GO!","color":"#b7ee56"}
 title @a title {"text":" "}
 
+#playsound
+execute if score #countdown bs.start matches 1..10 as @a at @s run playsound entity.arrow.hit_player player @s ~ ~ ~
+execute if score #countdown bs.start matches 0 as @a at @s run playsound entity.wither.spawn hostile @s ~ ~ ~ 10 1
+
 #scoreboard settings
 scoreboard players remove #countdown bs.start 1
 scoreboard objectives setdisplay sidebar
