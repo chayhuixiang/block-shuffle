@@ -1,4 +1,4 @@
-# Block Shuffle 1.17+
+# Minecraft Block Shuffle 1.17+
 
 Block shuffle is a minecraft minigame inspired by Dream.\
 Instead of having to install minecraft plugins, here's a data-pack that allows you to run the minigame in vanilla minecraft!
